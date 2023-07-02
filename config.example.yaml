@@ -1,0 +1,20 @@
+background_color: "255,248,220,255"
+background_images: 
+  - "backgrounds/testbg1.png"
+  - "backgrounds/testbg2.png"
+image_width: 1080
+image_height: 1080
+font_size: 60
+font_color: "5,5,32,255"
+font_file: "/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf"
+margin: 50
+output_dir: ./tmp
+line_spacing: 20
+airtable:
+  api_key: "aaaaaaaaaaaaaa"
+  base_id: "bbbbbbbbbbbbbb"
+  table_name: "ccccccccccccc"
+  name_id: "idx"
+  body_id: "Текст"
+preprocess:
+  remove: "#\\w+"
