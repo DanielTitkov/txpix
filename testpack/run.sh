@@ -1,0 +1,1 @@
+./txpix-linux -dir .
